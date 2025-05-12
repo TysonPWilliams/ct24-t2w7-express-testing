@@ -1,6 +1,6 @@
 
 
-const {app} = require("../src/index.js")
+const {app} = require("../src/server.js")
 const request = require("supertest");
 
 describe("Make sure the server boots up properly", () => {
